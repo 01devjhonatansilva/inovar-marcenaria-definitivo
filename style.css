@@ -6,6 +6,19 @@
 }
 
 
+@media (max-width: 600px) {
+    header {
+       height: 100px; /* Tamanho fixo para telas menores que 600px */
+    }
+ }
+ 
+ @media (min-width: 601px) {
+    header {
+       height: 10vh; /* Usar unidade de visualização para telas maiores que 600px */
+    }
+ }
+ 
+
 :root {
     #0D0D0D,#254029,#2D5930,#36733A,#F2DF80;
  --cor0:#0D0D0D;
