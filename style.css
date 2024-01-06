@@ -33,8 +33,7 @@
 }
 
 header {
-    background-image: linear-gradient(to right ,#0D0D0D,#254029,#2d5930,#36733a);
-    min-height: 150px;
+    background-image: linear-gradient(to right ,#0D0D0D,#254029,#2d5930,#36733a);  
     height: 40vh;
     text-align: center;
     display: flex;
