@@ -39,7 +39,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 100vw;
 }
 .logo{
    display: flex; 
@@ -49,9 +49,46 @@ header {
 }
 nav{
     background-color: var(--cor4);
+    width: 100vw;
 }
 a{
-   color: white;
+   color: black;
 text-decoration: none;
 
+}
+
+.texto{
+   background-color: #2d5930;
+   color: white;
+   font-size: 70%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100vw;
+   height: 50vh;
+
+   
+}
+
+.cozinha{
+  background-image: url(imagens/cozinhaG.jpeg);
+  background-size: cover;
+  background-attachment: fixed; 
+  width: 100vw;
+  height: 800px;
+   
+
+}
+.cozinha p {
+   backdrop-filter: blur(10px);
+   color: white;
+   width: 50vw;
+   font-size: 70%;
+   position: absolute;
+   left: 137px;
+   top: 1009px;
+   
+   
+   
+   
 }
