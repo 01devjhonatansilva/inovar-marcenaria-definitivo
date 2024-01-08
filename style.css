@@ -76,19 +76,32 @@ text-decoration: none;
   background-attachment: fixed; 
   width: 100vw;
   height: 800px;
+  position: relative;
+  
+  
+ 
    
-
 }
-.cozinha p {
+.cozinha p{
    backdrop-filter: blur(10px);
    color: white;
    width: 50vw;
    font-size: 70%;
+   padding: 30px;
    position: absolute;
-   left: 137px;
-   top: 1009px;
-   
-   
-   
-   
+   top: 50px;
+   left: 100px;
+}
+
+.granito{
+
+   background-image: url(imagens/granitoG.png);
+   background-size: cover;
+   background-attachment: fixed; 
+   width: 100vw;
+   height: 800px;
+   position: relative;
+   background-position: right center;
+  
+
 }
